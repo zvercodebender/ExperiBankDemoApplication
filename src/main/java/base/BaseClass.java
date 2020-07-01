@@ -37,6 +37,7 @@ public class BaseClass {
         desiredCapabilities.setCapability("noReset", true);
         desiredCapabilities.setCapability("accessKey", ACCESS_KEY);
 //        desiredCapabilities.setCapability("testName", method.getName());
+        desiredCapabilities.setCapability("Jenkins_Build_Number", System.getenv("BUILD_NUMBER"));
 
         if (platform.equalsIgnoreCase("iOS")) {
 
