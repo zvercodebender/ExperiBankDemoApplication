@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3.657" tests="6" errors="0" skipped="4" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="171.396" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Rahee\AppData\Local\Temp\surefire806944787614745881\surefirebooter3645092922661432919.jar C:\Users\Rahee\AppData\Local\Temp\surefire806944787614745881 2020-07-01T10-18-26_313-jvmRun1 surefire6269437436207969419tmp surefire_04382690259088721640tmp"/>
+    <property name="sun.java.command" value="C:\Users\Rahee\AppData\Local\Temp\surefire1068290002867758662\surefirebooter5881509875722686238.jar C:\Users\Rahee\AppData\Local\Temp\surefire1068290002867758662 2020-07-01T12-58-49_826-jvmRun1 surefire4316542553252209259tmp surefire_02291508003184570310tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\Rahee\IdeaProjects\ExperiBankDemoApplication\target\test-classes;C:\Users\Rahee\IdeaProjects\ExperiBankDemoApplication\target\classes;C:\Users\Rahee\.m2\repository\io\appium\java-client\6.1.0\java-client-6.1.0.jar;C:\Users\Rahee\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar;C:\Users\Rahee\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar;C:\Users\Rahee\.m2\repository\com\google\code\gson\gson\2.8.4\gson-2.8.4.jar;C:\Users\Rahee\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\Rahee\.m2\repository\cglib\cglib\3.2.6\cglib-3.2.6.jar;C:\Users\Rahee\.m2\repository\org\ow2\asm\asm\6.0\asm-6.0.jar;C:\Users\Rahee\.m2\repository\org\apache\ant\ant\1.9.6\ant-1.9.6.jar;C:\Users\Rahee\.m2\repository\org\apache\ant\ant-launcher\1.9.6\ant-launcher-1.9.6.jar;C:\Users\Rahee\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\Rahee\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\Rahee\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\Rahee\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Rahee\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\Rahee\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Rahee\.m2\repository\org\springframework\spring-context\5.0.5.RELEASE\spring-context-5.0.5.RELEASE.jar;C:\Users\Rahee\.m2\repository\org\springframework\spring-aop\5.0.5.RELEASE\spring-aop-5.0.5.RELEASE.jar;C:\Users\Rahee\.m2\repository\org\springframework\spring-beans\5.0.5.RELEASE\spring-beans-5.0.5.RELEASE.jar;C:\Users\Rahee\.m2\repository\org\springframework\spring-core\5.0.5.RELEASE\spring-core-5.0.5.RELEASE.jar;C:\Users\Rahee\.m2\repository\org\springframework\spring-jcl\5.0.5.RELEASE\spring-jcl-5.0.5.RELEASE.jar;C:\Users\Rahee\.m2\repository\org\springframework\spring-expression\5.0.5.RELEASE\spring-expression-5.0.5.RELEASE.jar;C:\Users\Rahee\.m2\repository\org\aspectj\aspectjweaver\1.9.1\aspectjweaver-1.9.1.jar;C:\Users\Rahee\.m2\repository\org\openpnp\opencv\3.2.0-1\opencv-3.2.0-1.jar;C:\Users\Rahee\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\Rahee\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Rahee\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar;C:\Users\Rahee\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\Rahee\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Rahee\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Rahee\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Rahee\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\Rahee\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Rahee\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Rahee\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Rahee\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Rahee\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Rahee\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Rahee\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\Rahee\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\Rahee\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar;C:\Users\Rahee\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar;C:\Users\Rahee\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar;C:\Users\Rahee\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar;C:\Users\Rahee\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar;C:\Users\Rahee\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar;C:\Users\Rahee\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar;C:\Users\Rahee\.m2\repository\com\experitest\reporter-testng\20.4\reporter-testng-20.4.jar;C:\Users\Rahee\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\Users\Rahee\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Rahee"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Rahee\AppData\Local\Temp\surefire806944787614745881\surefirebooter3645092922661432919.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Rahee\AppData\Local\Temp\surefire1068290002867758662\surefirebooter5881509875722686238.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,50 +60,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="setUp" classname="tests.TestClass" time="3.326">
-    <failure message="It is impossible to create a new session because &apos;createSession&apos; which takes HttpClient, InputStream and long was not found or it is not accessible&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;RKHAN-LT&apos;, ip: &apos;192.168.1.153&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
-It is impossible to create a new session because 'createSession' which takes HttpClient, InputStream and long was not found or it is not accessible
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'RKHAN-LT', ip: '192.168.1.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
-Driver info: driver.version: AndroidDriver
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: org.openqa.selenium.WebDriverException: 
-Could not verify the provided CSRF token because your session was not found.
-Command duration or timeout: 693 milliseconds
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'RKHAN-LT', ip: '192.168.1.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
-Driver info: driver.version: AndroidDriver
-</failure>
-  </testcase>
-  <testcase name="setUp" classname="tests.TestClass" time="3.339">
-    <failure message="It is impossible to create a new session because &apos;createSession&apos; which takes HttpClient, InputStream and long was not found or it is not accessible&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;RKHAN-LT&apos;, ip: &apos;192.168.1.153&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: driver.version: IOSDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
-It is impossible to create a new session because 'createSession' which takes HttpClient, InputStream and long was not found or it is not accessible
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'RKHAN-LT', ip: '192.168.1.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
-Driver info: driver.version: IOSDriver
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: org.openqa.selenium.WebDriverException: 
-Could not verify the provided CSRF token because your session was not found.
-Command duration or timeout: 693 milliseconds
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'RKHAN-LT', ip: '192.168.1.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
-Driver info: driver.version: IOSDriver
-</failure>
-    <system-out><![CDATA[Wed Jul 01 10:18:31 EDT 2020 [Thread[TestNG-tests-1,5,main]][INFO] SeeTest reporterSetStatus - Status 'Failed' could not be sent to any drivers on the class tests.TestClass
-]]></system-out>
-  </testcase>
-  <testcase name="loginTest" classname="tests.TestClass" time="0">
-    <skipped message="It is impossible to create a new session because &apos;createSession&apos; which takes HttpClient, InputStream and long was not found or it is not accessible&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;RKHAN-LT&apos;, ip: &apos;192.168.1.153&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: driver.version: IOSDriver"/>
-    <system-out><![CDATA[Wed Jul 01 10:18:31 EDT 2020 [Thread[TestNG-tests-2,5,main]][INFO] SeeTest reporterSetStatus - Status 'Failed' could not be sent to any drivers on the class tests.TestClass
-]]></system-out>
-  </testcase>
-  <testcase name="loginTest" classname="tests.TestClass" time="0">
-    <skipped message="It is impossible to create a new session because &apos;createSession&apos; which takes HttpClient, InputStream and long was not found or it is not accessible&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;RKHAN-LT&apos;, ip: &apos;192.168.1.153&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: driver.version: AndroidDriver"/>
-  </testcase>
-  <testcase name="tearDown" classname="tests.TestClass" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="tearDown" classname="tests.TestClass" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="makePaymentTest" classname="tests.TestClass" time="5.374"/>
+  <testcase name="makePaymentTest" classname="tests.TestClass" time="6.099"/>
+  <testcase name="makePaymentTest" classname="tests.TestClass" time="0.496"/>
+  <testcase name="makePaymentTest" classname="tests.TestClass" time="20.847"/>
+  <testcase name="makePaymentTest" classname="tests.TestClass" time="24.778"/>
+  <testcase name="makePaymentTest" classname="tests.TestClass" time="28.439"/>
+  <testcase name="makePaymentTest" classname="tests.TestClass" time="28.441"/>
+  <testcase name="makePaymentTest" classname="tests.TestClass" time="35.398"/>
+  <testcase name="makePaymentTest" classname="tests.TestClass" time="41.148"/>
+  <testcase name="makePaymentTest" classname="tests.TestClass" time="66.565"/>
 </testsuite>

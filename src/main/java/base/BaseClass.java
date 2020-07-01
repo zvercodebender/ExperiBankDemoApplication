@@ -33,11 +33,9 @@ public class BaseClass {
     @Parameters({"platform"})
     public void setUp(String platform, @Optional Method method) throws MalformedURLException {
 
-//        desiredCapabilities.setCapability("dontGoHomeOnQuit", true);
-        desiredCapabilities.setCapability("noReset", true);
         desiredCapabilities.setCapability("accessKey", ACCESS_KEY);
-//        desiredCapabilities.setCapability("testName", method.getName());
         desiredCapabilities.setCapability("Jenkins_Build_Number", System.getenv("BUILD_NUMBER"));
+        desiredCapabilities.setCapability("testName", method.getName() + " - " + platform);
 
         if (platform.equalsIgnoreCase("iOS")) {
 
@@ -54,9 +52,8 @@ public class BaseClass {
             desiredCapabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, ".LoginActivity");
             driver.set(new AndroidDriver(new URL(CLOUD_URL), desiredCapabilities));
 
-        } else {
-            System.out.println("No Such Platform Exists");
         }
+
         wait = new WebDriverWait(getDriver(), 10);
     }
 

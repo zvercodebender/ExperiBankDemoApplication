@@ -10,33 +10,28 @@ import static org.testng.Assert.assertTrue;
 public class TestClass extends BaseClass {
 
     @Test
-    public void loginTest() {
+    public void makePaymentTest() {
         wait.until(ExpectedConditions.elementToBeClickable(By.id("usernameTextField")));
         getDriver().findElement(By.id("usernameTextField")).sendKeys("company");
         getDriver().findElement(By.id("passwordTextField")).sendKeys("company");
         getDriver().findElement(By.id("loginButton")).click();
-        Boolean isPresent = getDriver().findElement(By.id("logoutButton")).isDisplayed();
-        assertTrue(isPresent);
-    }
+        Boolean isLogoutButtonPresent = getDriver().findElement(By.id("logoutButton")).isDisplayed();
+        assertTrue(isLogoutButtonPresent);
 
-    @Test(dependsOnMethods = "loginTest")
-    public void makePayment() {
-        getDriver().findElement(By.id("Make Payment")).click();
-//        getDriver().findElement(By.id("phoneTextField")).sendKeys("3479350000");
-//        getDriver().findElement(By.id("nameTet"))
+        getDriver().findElement(By.id("makePaymentButton")).click();
+
         try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-    }
 
-    @Test(dependsOnMethods = "makePayment")
-    public void logOut() {
         getDriver().findElement(By.id("cancelButton")).click();
         getDriver().findElement(By.id("logoutButton")).click();
-        Boolean isPresent = getDriver().findElement(By.id("loginButton")).isDisplayed();
-        assertTrue(isPresent);
+
+        Boolean isLoginButtonPresent = getDriver().findElement(By.id("loginButton")).isDisplayed();
+        assertTrue(isLoginButtonPresent);
     }
+
 
 }

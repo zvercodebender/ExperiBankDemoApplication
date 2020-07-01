@@ -3,7 +3,30 @@
   <component name="ChangeListManager">
     <list default="true" id="64e111d1-88b7-4386-bc27-650b2ce02ed2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/base/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test Automation/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Test Automation/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test Automation/1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Test Automation/1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test Automation/2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test Automation/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.TestClass.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.TestClass.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test Automation/1.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test Automation/2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test Automation/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Test Automation/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test Automation/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Test Automation/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test Automation/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Test Automation/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test Automation/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Test Automation/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test Automation/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Test Automation/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/TestClass.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

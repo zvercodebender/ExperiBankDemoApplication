@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Test Automation" parallel="tests">
+<suite name="Test Automation" parallel="tests" thread-count="10">
 
     <test name="1">
 
@@ -12,6 +12,78 @@
     </test>
 
     <test name="2">
+
+        <parameter name="platform" value="iOS"/>
+
+        <classes>
+            <class name="tests.TestClass"/>
+        </classes>
+    </test>
+
+    <test name="3">
+
+        <parameter name="platform" value="iOS"/>
+
+        <classes>
+            <class name="tests.TestClass"/>
+        </classes>
+    </test>
+
+    <test name="4">
+
+        <parameter name="platform" value="iOS"/>
+
+        <classes>
+            <class name="tests.TestClass"/>
+        </classes>
+    </test>
+
+    <test name="5">
+
+        <parameter name="platform" value="iOS"/>
+
+        <classes>
+            <class name="tests.TestClass"/>
+        </classes>
+    </test>
+
+    <test name="6">
+
+        <parameter name="platform" value="Android"/>
+
+        <classes>
+            <class name="tests.TestClass"/>
+        </classes>
+    </test>
+
+    <test name="7">
+
+        <parameter name="platform" value="Android"/>
+
+        <classes>
+            <class name="tests.TestClass"/>
+        </classes>
+    </test>
+
+    <test name="8">
+
+        <parameter name="platform" value="Android"/>
+
+        <classes>
+            <class name="tests.TestClass"/>
+        </classes>
+    </test>
+
+    <test name="9">
+
+        <parameter name="platform" value="Android"/>
+
+        <classes>
+            <class name="tests.TestClass"/>
+        </classes>
+    </test>
+
+    <test name="10">
 
         <parameter name="platform" value="Android"/>
 
