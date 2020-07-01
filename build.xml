@@ -11,13 +11,13 @@
         </classes>
     </test>
 
-<!--    <test name="2">-->
+    <test name="2">
 
-<!--        <parameter name="platform" value="Android"/>-->
+        <parameter name="platform" value="Android"/>
 
-<!--        <classes>-->
-<!--            <class name="tests.TestClass"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+        <classes>
+            <class name="tests.TestClass"/>
+        </classes>
+    </test>
 
 </suite>
