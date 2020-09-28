@@ -47,7 +47,7 @@
         <dependency>
             <groupId>com.experitest</groupId>
             <artifactId>reporter-testng</artifactId>
-            <version>20.4</version>
+            <version>20.8</version>
         </dependency>
 
     </dependencies>
