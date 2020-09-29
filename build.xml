@@ -22,7 +22,16 @@
 
     <test name="3">
 
-        <parameter name="platform" value="Android"/>
+        <parameter name="platform" value="iOS"/>
+
+        <classes>
+            <class name="tests.TestClass"/>
+        </classes>
+    </test>
+    
+    <test name="4">
+
+        <parameter name="platform" value="iOS"/>
 
         <classes>
             <class name="tests.TestClass"/>
