@@ -22,7 +22,7 @@ public class BaseClass {
     protected ThreadLocal<AppiumDriver> driver = new ThreadLocal<>();
     protected WebDriverWait wait;
 
-    private String ACCESS_KEY = "eyJ4cC51Ijo3MzU0MjQsInhwLnAiOjIsInhwLm0iOiJNVFUzT0RZd016ZzFOek16TVEiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE4OTM5NjM4NTcsImlzcyI6ImNvbS5leHBlcml0ZXN0In0.GP0hK0o0j2WEKt-J0aXsVbu1tmt-PhWUryqluokszJk";
+    private String ACCESS_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJ4cC51IjoxODQxOTkxLCJ4cC5wIjoxOTAxOTU0LCJ4cC5tIjoxNTk5MDUxNzkyNTE5LCJleHAiOjE5MTY3NDI1NDIsImlzcyI6ImNvbS5leHBlcml0ZXN0In0.fIQaQrynpY9xT0cSxy26X_T1x3ZybOsdUCSomyi6CWU";
     private String CLOUD_URL = "https://uscloud.experitest.com/wd/hub";
 
     public AppiumDriver getDriver() {
@@ -40,6 +40,7 @@ public class BaseClass {
         if (platform.equalsIgnoreCase("iOS")) {
 
             desiredCapabilities.setCapability("deviceQuery", "@os='ios'");
+//            desiredCapabilities.setCapability("deviceQuery", "@serialnumber='\"" + udid + "\"'");
             desiredCapabilities.setCapability(MobileCapabilityType.APP, "cloud:com.experitest.ExperiBank");
             desiredCapabilities.setCapability(IOSMobileCapabilityType.BUNDLE_ID, "com.experitest.ExperiBank");
             driver.set(new IOSDriver(new URL(CLOUD_URL), desiredCapabilities));
@@ -47,6 +48,7 @@ public class BaseClass {
         } else if (platform.equalsIgnoreCase("Android")) {
 
             desiredCapabilities.setCapability("deviceQuery", "@os='android'");
+//            desiredCapabilities.setCapability("deviceQuery", "@serialnumber='\"" + udid + "\"'");
             desiredCapabilities.setCapability(MobileCapabilityType.APP, "cloud:com.experitest.ExperiBank/.LoginActivity");
             desiredCapabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.experitest.ExperiBank");
             desiredCapabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, ".LoginActivity");

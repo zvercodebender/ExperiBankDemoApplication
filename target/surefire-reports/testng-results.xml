@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Test Automation" duration-ms="169613" started-at="2020-07-01T12:58:53 EDT" finished-at="2020-07-01T13:01:43 EDT">
+  <suite name="Test Automation" duration-ms="113297" started-at="2020-09-29T09:51:03 EDT" finished-at="2020-09-29T09:52:56 EDT">
     <groups>
     </groups>
-    <test name="10" duration-ms="144531" started-at="2020-07-01T12:58:53 EDT" finished-at="2020-07-01T13:01:17 EDT">
+    <test name="1" duration-ms="63426" started-at="2020-09-29T09:51:03 EDT" finished-at="2020-09-29T09:52:06 EDT">
       <class name="tests.TestClass">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.reflect.Method)[pri:0, instance:tests.TestClass@396f6598]" name="setUp" is-config="true" duration-ms="88536" started-at="2020-07-01T12:58:53 EDT" finished-at="2020-07-01T13:00:22 EDT">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.reflect.Method)[pri:0, instance:tests.TestClass@61f8bee4]" name="setUp" is-config="true" duration-ms="42812" started-at="2020-09-29T09:51:03 EDT" finished-at="2020-09-29T09:51:46 EDT">
           <params>
             <param index="0">
               <value>
@@ -23,19 +23,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="makePaymentTest()[pri:0, instance:tests.TestClass@396f6598]" name="makePaymentTest" duration-ms="41147" started-at="2020-07-01T13:00:22 EDT" finished-at="2020-07-01T13:01:03 EDT">
+        <test-method status="PASS" signature="makePaymentTest()[pri:0, instance:tests.TestClass@61f8bee4]" name="makePaymentTest" duration-ms="13914" started-at="2020-09-29T09:51:46 EDT" finished-at="2020-09-29T09:51:59 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- makePaymentTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.TestClass@396f6598]" name="tearDown" is-config="true" duration-ms="14798" started-at="2020-07-01T13:01:03 EDT" finished-at="2020-07-01T13:01:17 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.TestClass@61f8bee4]" name="tearDown" is-config="true" duration-ms="6659" started-at="2020-09-29T09:51:59 EDT" finished-at="2020-09-29T09:52:06 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.TestClass -->
-    </test> <!-- 10 -->
-    <test name="7" duration-ms="169613" started-at="2020-07-01T12:58:53 EDT" finished-at="2020-07-01T13:01:43 EDT">
+    </test> <!-- 1 -->
+    <test name="2" duration-ms="73559" started-at="2020-09-29T09:51:03 EDT" finished-at="2020-09-29T09:52:16 EDT">
       <class name="tests.TestClass">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.reflect.Method)[pri:0, instance:tests.TestClass@614ddd49]" name="setUp" is-config="true" duration-ms="86188" started-at="2020-07-01T12:58:53 EDT" finished-at="2020-07-01T13:00:19 EDT">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.reflect.Method)[pri:0, instance:tests.TestClass@30b8a058]" name="setUp" is-config="true" duration-ms="49800" started-at="2020-09-29T09:51:03 EDT" finished-at="2020-09-29T09:51:53 EDT">
           <params>
             <param index="0">
               <value>
@@ -51,15 +51,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="makePaymentTest()[pri:0, instance:tests.TestClass@614ddd49]" name="makePaymentTest" duration-ms="68906" started-at="2020-07-01T13:00:19 EDT" finished-at="2020-07-01T13:01:28 EDT">
+        <test-method status="PASS" signature="makePaymentTest()[pri:0, instance:tests.TestClass@30b8a058]" name="makePaymentTest" duration-ms="13889" started-at="2020-09-29T09:51:53 EDT" finished-at="2020-09-29T09:52:06 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- makePaymentTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.TestClass@614ddd49]" name="tearDown" is-config="true" duration-ms="14467" started-at="2020-07-01T13:01:28 EDT" finished-at="2020-07-01T13:01:43 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.TestClass@30b8a058]" name="tearDown" is-config="true" duration-ms="9833" started-at="2020-09-29T09:52:06 EDT" finished-at="2020-09-29T09:52:16 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.TestClass -->
-    </test> <!-- 7 -->
+    </test> <!-- 2 -->
+    <test name="4" duration-ms="113297" started-at="2020-09-29T09:51:03 EDT" finished-at="2020-09-29T09:52:56 EDT">
+      <class name="tests.TestClass">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.reflect.Method)[pri:0, instance:tests.TestClass@76707e36]" name="setUp" is-config="true" duration-ms="51260" started-at="2020-09-29T09:51:03 EDT" finished-at="2020-09-29T09:51:54 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.TestClass.makePaymentTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="makePaymentTest()[pri:0, instance:tests.TestClass@76707e36]" name="makePaymentTest" duration-ms="46943" started-at="2020-09-29T09:51:54 EDT" finished-at="2020-09-29T09:52:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makePaymentTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.TestClass@76707e36]" name="tearDown" is-config="true" duration-ms="15055" started-at="2020-09-29T09:52:41 EDT" finished-at="2020-09-29T09:52:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestClass -->
+    </test> <!-- 4 -->
   </suite> <!-- Test Automation -->
 </testng-results>

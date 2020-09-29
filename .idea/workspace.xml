@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64e111d1-88b7-4386-bc27-650b2ce02ed2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/STAW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/STAW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/STAW.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/STAW.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +48,7 @@
       <recent name="C:\Users\Rahee\IdeaProjects\ExperiBankDemoApplication" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.STAW.testing">
+  <component name="RunManager" selected="TestNG.C:/Users/Rahee/IdeaProjects/ExperiBankDemoApplication/build.xml">
     <configuration name="C:/Users/Rahee/IdeaProjects/ExperiBankDemoApplication/build.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ExperiBankDemoApplication" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/build.xml" />
@@ -94,8 +97,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.STAW.testing" />
         <item itemvalue="TestNG.C:/Users/Rahee/IdeaProjects/ExperiBankDemoApplication/build.xml" />
+        <item itemvalue="TestNG.STAW.testing" />
         <item itemvalue="TestNG.TestClass.loginTest" />
       </list>
     </recent_temporary>
@@ -125,5 +128,23 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1237" height="233" key="GridCell.Tab.0.bottom" timestamp="1601383343048">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="233" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1601383343048" />
+    <state width="1237" height="233" key="GridCell.Tab.0.center" timestamp="1601383343047">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="233" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1601383343047" />
+    <state width="1237" height="233" key="GridCell.Tab.0.left" timestamp="1601383343047">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="233" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1601383343047" />
+    <state width="1237" height="233" key="GridCell.Tab.0.right" timestamp="1601383343047">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="233" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1601383343047" />
   </component>
 </project>
